@@ -1,1 +1,95 @@
+:root {
+  --base-color: #27413D;
+  --font-color: #E7E1D7;
+}
+                
+
+/* $base-color: #27413D;
+$font-color: #F0EEEA; */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: var(--base-color);
+    color: var(--font-color);
+}
+p{
+    font-size: 1.4rem;font-weight: 300;
+}
+header{
+    border-bottom: 1px solid var(--font-color);
+    padding: 0rem 10rem;
+}
+
+.hero{
+    padding: 0rem 10rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 6rem;
+}
+h1 {
+    font-size: 80px;
+}
+.hero h1{
+    max-width: 40rem;
+    line-height: 6rem;
+}
+h3 {
+    font-weight: 300;
+    font-size: 30px;
+}
+.hero h3{
+    max-width: 40rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    font-size: 1.4rem;
+    border: 3px solid var(--font-color);
+    width: 16rem;
+    border-radius: 20px;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+.info {
+    padding: 2rem 10rem;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--font-color);
+    color: var(--base-color);
+}
+h2 {
+    font-weight: 400;
+    font-size: 2.2rem;
+    width: 745px;
+    padding-bottom: 2rem;
+}
+.lower-info{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    border-top: 1px solid var(--base-color);
+}
+.info-left{
+    border-right: 1px solid var(--base-color);
+}
+.plant{
+    padding: 0rem 10rem;
+}
+.socialproof{
+    padding: 0rem 10rem;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+
+                
+
+$base-color: #27413D;
+$font-color: #F0EEEA;
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: $base-color;
+    color: $font-color;
+}
+page {
+    width: 20rem
+}
+.hero{
+    background-color: #fff;
+    height: 100vh;
+}
+h1 {
+    font-size: ;
+}
